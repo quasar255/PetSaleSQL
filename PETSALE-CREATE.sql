@@ -1,3 +1,4 @@
+--Code for IBM Watson DB2
 -- Drop the PETSALE table in case it exists
 drop table PETSALE;
 -- Create the PETSALE table 
@@ -8,6 +9,8 @@ create table PETSALE (
 	SALEPRICE DECIMAL(6,2),
 	SALEDATE DATE
 	);
+-- To add primary key, ALTER TABLE PETSALE ADD PRIMARY KEY (ID);
+-- To drop primary key, ALTER TABLE PETSALE DROP PRIMARY KEY (ID);
 -- Insert saple data into PETSALE table
 insert into PETSALE values 
 	(1,'Cat',9,450.09,'2018-05-29'),
